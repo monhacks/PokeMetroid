@@ -30,6 +30,8 @@
 #include "constants/mauville_old_man.h"
 #include "constants/trainer_types.h"
 #include "constants/union_room.h"
+#include "constants/metatile_behaviors.h"
+#include "bike.h"
 
 // this file was known as evobjmv.c in Game Freak's original source
 

@@ -288,6 +288,32 @@ Route103_EventScript_Isabelle::
 	msgbox Route103_Text_IsabellePostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route103_EventScript_Snorlax::
+	goto_if_unset OW_FLAG_NO_ENCOUNTER, Route103_EventScript_Snorlax2
+	msgbox Route103_Text_SnorlaxFight, MSGBOX_DEFAULT
+	closemessage
+	end
+	
+Route103_EventScript_Snorlax2::
+	trainerbattle_single TRAINER_SNORLAX103, Route103_Text_Snorlax, Route103_Text_Snorlax
+	end
+
+Route103_EventScript_Starter::
+	removeobject 2
+	setflag FLAG_SPAWN
+	setflag FLAG_NO_WILD
+	setrespawn HEAL_LOCATION_OLDALE_TOWN
+	end
+
+Route103_Text_Snorlax:
+	.string "Yawn$."
+
+Route103_Text_SnorlaxFight:
+	.string "Snorlax: Yawn\n"
+	.string "You have no\p"
+	.string "Pokemon to\n"
+	.string "fight.$"
+
 Route103_Text_MayRoute103Pokemon:
 	.string "MAY: Let's see… The POKéMON found\n"
 	.string "on ROUTE 103 include…$"

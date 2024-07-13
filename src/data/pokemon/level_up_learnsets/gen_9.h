@@ -6960,11 +6960,11 @@ static const struct LevelUpMove sCelebiLevelUpLearnset[] = {
 
 #if P_FAMILY_TREECKO
 static const struct LevelUpMove sTreeckoLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_POUND),
-    LEVEL_UP_MOVE( 1, MOVE_LEER),
-    LEVEL_UP_MOVE( 3, MOVE_LEAFAGE),
+    LEVEL_UP_MOVE( 1, MOVE_ENERGY_BALL),
+    LEVEL_UP_MOVE( 3, MOVE_POUND),
+    LEVEL_UP_MOVE( 3, MOVE_LEER),
     LEVEL_UP_MOVE( 6, MOVE_QUICK_ATTACK),
-    LEVEL_UP_MOVE( 9, MOVE_MEGA_DRAIN),
+    LEVEL_UP_MOVE( 9, MOVE_RAZOR_LEAF),
     LEVEL_UP_MOVE(12, MOVE_DETECT),
     LEVEL_UP_MOVE(15, MOVE_QUICK_GUARD),
     LEVEL_UP_MOVE(18, MOVE_ASSURANCE),
@@ -7029,9 +7029,9 @@ static const struct LevelUpMove sSceptileLevelUpLearnset[] = {
 
 #if P_FAMILY_TORCHIC
 static const struct LevelUpMove sTorchicLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
-    LEVEL_UP_MOVE( 1, MOVE_GROWL),
-    LEVEL_UP_MOVE( 3, MOVE_EMBER),
+    LEVEL_UP_MOVE( 1, MOVE_FLAMETHROWER),
+    LEVEL_UP_MOVE( 2, MOVE_SCRATCH),
+    LEVEL_UP_MOVE( 2, MOVE_GROWL),
     LEVEL_UP_MOVE( 6, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE( 9, MOVE_FLAME_CHARGE),
     LEVEL_UP_MOVE(12, MOVE_DETECT),
@@ -7098,9 +7098,9 @@ static const struct LevelUpMove sBlazikenLevelUpLearnset[] = {
 
 #if P_FAMILY_MUDKIP
 static const struct LevelUpMove sMudkipLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_TACKLE),
-    LEVEL_UP_MOVE( 1, MOVE_GROWL),
-    LEVEL_UP_MOVE( 3, MOVE_WATER_GUN),
+    LEVEL_UP_MOVE( 1, MOVE_SURF),
+    LEVEL_UP_MOVE( 3, MOVE_TACKLE),
+    LEVEL_UP_MOVE( 3, MOVE_GROWL),
     LEVEL_UP_MOVE( 6, MOVE_ROCK_SMASH),
     LEVEL_UP_MOVE( 9, MOVE_ROCK_THROW),
     LEVEL_UP_MOVE(12, MOVE_PROTECT),

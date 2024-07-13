@@ -11804,3 +11804,44 @@ static const struct TrainerMon sParty_MayLinkPlaceholder[] = {
     .species = SPECIES_KYOGRE,
     }
 };
+
+static const struct TrainerMon sParty_SNORLAX103[] = {
+    {
+    .lvl = 20,
+    .species = SPECIES_SNORLAX,
+    .moves = {MOVE_CURSE, MOVE_REST, MOVE_BODY_SLAM, MOVE_SHADOW_BALL}
+    }
+};
+
+static const struct TrainerMon sParty_SCYTHER101[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_YANMA,
+	.ability = ABILITY_SPEED_BOOST,
+	.iv = TRAINER_PARTY_IVS(0, 31, 31, 31, 0, 31),
+    .moves = {MOVE_REVERSAL, MOVE_SWIFT, MOVE_NONE, MOVE_NONE},
+    .heldItem = ITEM_FOCUS_SASH
+    }
+};
+
+static const struct TrainerMon sParty_DWEBBLE101[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_DWEBBLE,
+	.ability = ABILITY_STURDY,
+	.iv = TRAINER_PARTY_IVS(0, 31, 31, 31, 0, 31),
+    .moves = {MOVE_ROCK_POLISH, MOVE_X_SCISSOR, MOVE_NONE, MOVE_NONE},
+    .heldItem = ITEM_WEAKNESS_POLICY
+    }
+};
+
+static const struct TrainerMon sParty_DEWPIDER101[] = {
+    {
+    .lvl = 5,
+    .species = SPECIES_DEWPIDER,
+	.ability = ABILITY_WATER_BUBBLE,
+    .moves = {MOVE_MIRROR_COAT, MOVE_NONE, MOVE_NONE, MOVE_NONE},
+	.iv = TRAINER_PARTY_IVS(0, 31, 31, 31, 0, 31),
+    .heldItem = ITEM_FOCUS_SASH
+    }
+};

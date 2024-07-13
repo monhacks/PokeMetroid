@@ -7,16 +7,16 @@ Route101_MapScripts::
 	.byte 0
 
 Route101_OnTransition:
-	call ProfBirch_EventScript_UpdateLocation
+	@ call ProfBirch_EventScript_UpdateLocation
 	end
 
 Route101_OnFrame:
-	map_script_2 VAR_ROUTE101_STATE, 0, Route101_EventScript_HideMapNamePopup
+	@ map_script_2 VAR_ROUTE101_STATE, 0, Route101_EventScript_HideMapNamePopup
 	.2byte 0
 
 Route101_EventScript_HideMapNamePopup::
 	setflag FLAG_HIDE_MAP_NAME_POPUP
-	setvar VAR_ROUTE101_STATE, 1
+	@ setvar VAR_ROUTE101_STATE, 1
 	end
 
 Route101_EventScript_StartBirchRescue::
@@ -259,6 +259,161 @@ Route101_EventScript_HideBrendanInBedroom::
 Route101_Movement_BirchApproachPlayer:
 	walk_right
 	step_end
+
+Route101_EventScript_Starter::
+	special ChooseStarter
+	removeobject 4
+	setflag FLAG_STARTER
+	clearflag FLAG_NO_WILD
+	setrespawn HEAL_LOCATION_OLDALE_TOWN
+	end
+
+Route101_EventScript_FireBarrier1::
+	msgbox Route101_Text_FireBarrier1, MSGBOX_DEFAULT
+	closemessage
+	switch VAR_STARTER_MON
+	case 0, Route101_EventScript_Terminate
+	case 1, Route101_EventScript_FireBarrier2
+	case 2, Route101_EventScript_Terminate
+	end
+
+Route101_EventScript_FireBarrier2::
+	msgbox Route101_Text_FireBarrier2, MSGBOX_DEFAULT
+	closemessage
+	setflag FLAG_TEMP_1
+	removeobject 1
+	end
+	
+Route101_EventScript_GrassBarrier1::
+	msgbox Route101_Text_GrassBarrier1, MSGBOX_DEFAULT
+	closemessage
+	switch VAR_STARTER_MON
+	case 0, Route101_EventScript_GrassBarrier2
+	case 1, Route101_EventScript_Terminate
+	case 2, Route101_EventScript_Terminate
+	end
+
+Route101_EventScript_GrassBarrier2::
+	msgbox Route101_Text_GrassBarrier2, MSGBOX_DEFAULT
+	closemessage
+	setflag FLAG_TEMP_2
+	removeobject 2
+	end
+
+Route101_EventScript_WaterBarrier1::
+	msgbox Route101_Text_WaterBarrier1, MSGBOX_DEFAULT
+	closemessage
+	switch VAR_STARTER_MON
+	case 0, Route101_EventScript_Terminate
+	case 1, Route101_EventScript_Terminate
+	case 2, Route101_EventScript_WaterBarrier2
+	end
+
+Route101_EventScript_WaterBarrier2::
+	msgbox Route101_Text_WaterBarrier2, MSGBOX_DEFAULT
+	closemessage
+	setflag FLAG_TEMP_3
+	removeobject 3
+	end
+
+Route101_EventScript_FireBarrier3::
+	msgbox Route101_Text_FireBarrier1, MSGBOX_DEFAULT
+	closemessage
+	switch VAR_STARTER_MON
+	case 0, Route101_EventScript_Terminate
+	case 1, Route101_EventScript_FireBarrier4
+	case 2, Route101_EventScript_Terminate
+	end
+
+Route101_EventScript_FireBarrier4::
+	msgbox Route101_Text_FireBarrier2, MSGBOX_DEFAULT
+	closemessage
+	setflag FLAG_TEMP_4
+	removeobject 8
+	end
+	
+Route101_EventScript_GrassBarrier3::
+	msgbox Route101_Text_GrassBarrier1, MSGBOX_DEFAULT
+	closemessage
+	switch VAR_STARTER_MON
+	case 0, Route101_EventScript_GrassBarrier4
+	case 1, Route101_EventScript_Terminate
+	case 2, Route101_EventScript_Terminate
+	end
+
+Route101_EventScript_GrassBarrier4::
+	msgbox Route101_Text_GrassBarrier2, MSGBOX_DEFAULT
+	closemessage
+	setflag FLAG_TEMP_5
+	removeobject 9
+	end
+
+Route101_EventScript_WaterBarrier3::
+	msgbox Route101_Text_WaterBarrier1, MSGBOX_DEFAULT
+	closemessage
+	switch VAR_STARTER_MON
+	case 0, Route101_EventScript_Terminate
+	case 1, Route101_EventScript_Terminate
+	case 2, Route101_EventScript_WaterBarrier4
+	end
+
+Route101_EventScript_WaterBarrier4::
+	msgbox Route101_Text_WaterBarrier2, MSGBOX_DEFAULT
+	closemessage
+	setflag FLAG_TEMP_6
+	removeobject 10
+	end
+
+Route101_EventScript_FireFight::
+	trainerbattle_single TRAINER_SCYTHER101, Route101_Text_Fight, Route101_Text_Demo
+	msgbox Route101_Text_Fight
+	closemessage
+	end
+
+Route101_EventScript_GrassFight::
+	trainerbattle_single TRAINER_DEWPIDER101, Route101_Text_Fight, Route101_Text_Demo
+	msgbox Route101_Text_Fight
+	closemessage
+	end
+
+Route101_EventScript_WaterFight::
+	trainerbattle_single TRAINER_DWEBBLE101, Route101_Text_Fight, Route101_Text_Demo
+	msgbox Route101_Text_Fight
+	closemessage
+	end
+
+Route101_EventScript_Terminate::
+	end
+
+Route101_Text_FireBarrier1:
+	.string "Looks like it\n"
+	.string "could burn up!$"
+
+Route101_Text_FireBarrier2:
+	.string "It burnt up!$"
+
+Route101_Text_WaterBarrier1:
+	.string "Looks like it\n"
+	.string "could wash up!$"
+
+Route101_Text_WaterBarrier2:
+	.string "It washed up!$"
+
+Route101_Text_GrassBarrier1:
+	.string "Looks like it\n"
+	.string "could get grassed!$"
+
+Route101_Text_GrassBarrier2:
+	.string "It got grassed!$"
+
+Route101_Text_Fight:
+	.string "Fight!$"
+
+Route101_Text_Demo:
+	.string "Good jov\n"
+	.string "Now you'd be\n"
+	.string "able to surf\n"
+	.string "as an example.$"
 
 Route101_Text_HelpMe:
 	.string "H-help me!$"
