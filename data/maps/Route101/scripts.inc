@@ -410,11 +410,11 @@ Route101_Text_Fight:
 	.string "Fight!$"
 
 Route101_Text_Demo:
-	.string "Good jov\n"
-	.string "Now you'd be\n"
-	.string "able to surf\n"
-	.string "as an example.$"
-
+	.string "Good job!\n"
+	.string "The demo is over\p"
+	.string "But now you'd\n"
+	.string "be able to surf(?)$"
+	
 Route101_Text_HelpMe:
 	.string "H-help me!$"
 
