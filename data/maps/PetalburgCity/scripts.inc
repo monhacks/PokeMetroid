@@ -704,6 +704,28 @@ PetalburgCity_EventScript_GymBoy::
 	msgbox PetalburgCity_Text_AreYouRookieTrainer, MSGBOX_NPC
 	end
 
+PetalburgCity_EventScript_WarpCircle::
+	msgbox PetalburgCity_Text_WarpCircle1, MSGBOX_DEFAULT
+	goto_if_set FLAG_BADGE02_GET, PetalburgCity_EventScript_Warp
+	end
+
+PetalburgCity_EventScript_Warp::
+	msgbox PetalburgCity_Text_WarpCircle2, MSGBOX_DEFAULT
+	warp MAP_ROUTE109, 20, 17
+	end
+
+PetalburgCity_EventScript_Badge::
+	setflag FLAG_BADGE02_GET
+	end
+
+PetalburgCity_Text_WarpCircle1:
+	.string "You feel power\n"
+	.string "flowing through you.$"
+
+PetalburgCity_Text_WarpCircle2:
+	.string "You activate\n"
+	.string "the gate!$"
+
 PetalburgCity_Text_WhereIsWally:
 	.string "Where has our WALLY gone?\p"
 	.string "We have to leave for VERDANTURF TOWN\n"

@@ -476,6 +476,25 @@ Route109_EventScript_Elijah::
 	msgbox Route109_Text_ElijahPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route109_EventScript_WarpCircle::
+	msgbox Route109_Text_WarpCircle1, MSGBOX_DEFAULT
+	goto_if_set FLAG_BADGE02_GET, Route109_EventScript_Warp
+	end
+	
+Route109_EventScript_Warp::
+	msgbox Route109_Text_WarpCircle2, MSGBOX_DEFAULT
+	warp MAP_PETALBURG_CITY, 15, 13
+	waitstate
+	end
+
+Route109_Text_WarpCircle1:
+	.string "You feel power\n"
+	.string "flowing through you.$"
+
+Route109_Text_WarpCircle2:
+	.string "You activate\n"
+	.string "the gate!$"
+
 DewfordTown_Text_BrineyLandedInSlateportDeliverGoods:
 	.string "MR. BRINEY: Ahoy!\n"
 	.string "We've made land in SLATEPORT!\p"
