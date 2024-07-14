@@ -41,7 +41,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "OldaleTown_EventScript_HealPlayer",
-      "flag": "0"
+      "flag": "FLAG_SPAWN"
     }
   ],
   "warp_events": [

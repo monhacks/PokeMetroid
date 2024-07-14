@@ -365,21 +365,25 @@ Route101_EventScript_WaterBarrier4::
 	end
 
 Route101_EventScript_FireFight::
-	trainerbattle_single TRAINER_SCYTHER101, Route101_Text_Fight, Route101_Text_Demo
+	trainerbattle_single TRAINER_SCYTHER101, Route101_Text_Fight, Route101_Text_Demo, Route101_EventScript_Flag
 	msgbox Route101_Text_Fight
 	closemessage
 	end
 
 Route101_EventScript_GrassFight::
-	trainerbattle_single TRAINER_DEWPIDER101, Route101_Text_Fight, Route101_Text_Demo
+	trainerbattle_single TRAINER_DEWPIDER101, Route101_Text_Fight, Route101_Text_Demo, Route101_EventScript_Flag
 	msgbox Route101_Text_Fight
 	closemessage
 	end
 
 Route101_EventScript_WaterFight::
-	trainerbattle_single TRAINER_DWEBBLE101, Route101_Text_Fight, Route101_Text_Demo
+	trainerbattle_single TRAINER_DWEBBLE101, Route101_Text_Fight, Route101_Text_Demo, Route101_EventScript_Flag, NO_MUSIC
 	msgbox Route101_Text_Fight
 	closemessage
+	end
+
+Route101_EventScript_Flag::
+	setflag FLAG_BADGE01_GET
 	end
 
 Route101_EventScript_Terminate::
