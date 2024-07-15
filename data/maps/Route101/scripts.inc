@@ -384,6 +384,9 @@ Route101_EventScript_WaterFight::
 
 Route101_EventScript_Flag::
 	setflag FLAG_BADGE01_GET
+	removeobject 5
+	removeobject 6
+	removeobject 7
 	end
 
 Route101_EventScript_Terminate::
