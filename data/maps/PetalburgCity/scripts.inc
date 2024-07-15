@@ -704,8 +704,14 @@ PetalburgCity_EventScript_GymBoy::
 	msgbox PetalburgCity_Text_AreYouRookieTrainer, MSGBOX_NPC
 	end
 
+PetalburgCity_EventScript_WarpTrigger::
+	clearflag FLAG_TEMP_1
+	end
+
 PetalburgCity_EventScript_WarpCircle::
+	goto_if_set FLAG_TEMP_1, PetalburgCity_EventScript_Terminate
 	msgbox PetalburgCity_Text_WarpCircle1, MSGBOX_DEFAULT
+	setflag FLAG_TEMP_1
 	goto_if_set FLAG_BADGE02_GET, PetalburgCity_EventScript_Warp
 	end
 
@@ -716,6 +722,9 @@ PetalburgCity_EventScript_Warp::
 
 PetalburgCity_EventScript_Badge::
 	setflag FLAG_BADGE02_GET
+	end
+
+PetalburgCity_EventScript_Terminate::
 	end
 
 PetalburgCity_Text_WarpCircle1:
@@ -787,3 +796,4 @@ PetalburgCity_Text_ImLookingForTalentedTrainers:
 	.string "I'm roaming the land in search of\n"
 	.string "talented TRAINERS.\p"
 	.string "I'm sorry to have taken your time.$"
+

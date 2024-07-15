@@ -383,7 +383,7 @@ Route101_EventScript_WaterFight::
 	end
 
 Route101_EventScript_Flag::
-	//setflag FLAG_BADGE01_GET
+	setflag FLAG_BADGE01_GET
 	end
 
 Route101_EventScript_Terminate::
@@ -418,7 +418,7 @@ Route101_Text_Demo:
 	.string "The demo is over\p"
 	.string "But now you'd\n"
 	.string "be able to walk\p"
-	.string "through long grass."$"
+	.string "through long grass.$"
 	
 Route101_Text_HelpMe:
 	.string "H-help me!$"
