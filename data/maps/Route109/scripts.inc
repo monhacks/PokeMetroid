@@ -2,6 +2,7 @@
 @  These are labeled in DewfordTown/scripts.inc
 
 Route109_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, Route109_OnLoad
 	.byte 0
 
 Route109_EventScript_StartDepartForDewford::
@@ -476,6 +477,15 @@ Route109_EventScript_Elijah::
 	msgbox Route109_Text_ElijahPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route109_OnLoad::
+	hideobjectat 1, MAP_ROUTE109
+	end
+
+@ Route109_EventScript_WarpTrigger::
+	@ goto_if_unset FLAG_TEMP_1, Route109_EventScript_Terminate
+	@ clearflag FLAG_TEMP_1
+	@ end
+
 Route109_EventScript_WarpCircle::
 	msgbox Route109_Text_WarpCircle1, MSGBOX_DEFAULT
 	goto_if_set FLAG_BADGE02_GET, Route109_EventScript_Warp
@@ -485,6 +495,9 @@ Route109_EventScript_Warp::
 	msgbox Route109_Text_WarpCircle2, MSGBOX_DEFAULT
 	warp MAP_PETALBURG_CITY, 15, 13
 	waitstate
+	end
+
+Route109_EventScript_Terminate::
 	end
 
 Route109_Text_WarpCircle1:

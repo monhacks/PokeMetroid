@@ -7,6 +7,7 @@
 PetalburgCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, PetalburgCity_OnTransition
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, PetalburgCity_OnFrame
+	map_script MAP_SCRIPT_ON_LOAD, PetalburgCity_OnLoad
 	.byte 0
 
 PetalburgCity_OnTransition:
@@ -15,6 +16,7 @@ PetalburgCity_OnTransition:
 	call_if_eq VAR_PETALBURG_CITY_STATE, 2, PetalburgCity_EventScript_DisableMapNameAndMusic
 	call_if_eq VAR_PETALBURG_CITY_STATE, 4, PetalburgCity_EventScript_DisableMapNameAndMusic
 	call_if_eq VAR_PETALBURG_GYM_STATE, 8, PetalburgCity_EventScript_SetGymDoorsUnlocked
+	call PetalburgCity_OnLoad
 	end
 
 PetalburgCity_EventScript_MoveGymBoyToWestEntrance::
@@ -704,20 +706,28 @@ PetalburgCity_EventScript_GymBoy::
 	msgbox PetalburgCity_Text_AreYouRookieTrainer, MSGBOX_NPC
 	end
 
-PetalburgCity_EventScript_WarpTrigger::
-	clearflag FLAG_TEMP_1
+PetalburgCity_OnLoad::
+	hideobjectat 2, MAP_PETALBURG_CITY
 	end
 
+@ PetalburgCity_EventScript_WarpTrigger::
+	@ goto_if_unset FLAG_TEMP_1, PetalburgCity_EventScript_Terminate
+	@ clearflag FLAG_TEMP_1
+	@ end
+
 PetalburgCity_EventScript_WarpCircle::
-	goto_if_set FLAG_TEMP_1, PetalburgCity_EventScript_Terminate
+	@ goto_if_set FLAG_TEMP_1, PetalburgCity_EventScript_Terminate
 	msgbox PetalburgCity_Text_WarpCircle1, MSGBOX_DEFAULT
-	setflag FLAG_TEMP_1
+	closemessage
+	@ setflag FLAG_TEMP_1
 	goto_if_set FLAG_BADGE02_GET, PetalburgCity_EventScript_Warp
 	end
 
 PetalburgCity_EventScript_Warp::
 	msgbox PetalburgCity_Text_WarpCircle2, MSGBOX_DEFAULT
+	closemessage
 	warp MAP_ROUTE109, 20, 17
+	waitstate
 	end
 
 PetalburgCity_EventScript_Badge::
