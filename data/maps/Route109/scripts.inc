@@ -478,7 +478,8 @@ Route109_EventScript_Elijah::
 	end
 
 Route109_OnLoad::
-	hideobjectat 1, MAP_ROUTE109
+	//hideobjectat 1, MAP_ROUTE109
+	//setflag FLAG_TEMP_3
 	end
 
 @ Route109_EventScript_WarpTrigger::
