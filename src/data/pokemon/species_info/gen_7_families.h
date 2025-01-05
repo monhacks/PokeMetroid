@@ -52,7 +52,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Rowlet,
         .iconPalIndex = 0,
         FOOTPRINT(Rowlet)
-        .levelUpLearnset = sRowletLevelUpLearnset,
+        //.levelUpLearnset = sRowletLevelUpLearnset,
         .teachableLearnset = sRowletTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 17, SPECIES_DARTRIX}),
     },
@@ -106,7 +106,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Dartrix,
         .iconPalIndex = 1,
         FOOTPRINT(Dartrix)
-        .levelUpLearnset = sDartrixLevelUpLearnset,
+        //.levelUpLearnset = sDartrixLevelUpLearnset,
         .teachableLearnset = sDartrixTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 34, SPECIES_DECIDUEYE},
                                 {EVO_NONE, 0, SPECIES_DECIDUEYE_HISUIAN}),
@@ -160,7 +160,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Decidueye,
         .iconPalIndex = 1,
         FOOTPRINT(Decidueye)
-        .levelUpLearnset = sDecidueyeLevelUpLearnset,
+        //.levelUpLearnset = sDecidueyeLevelUpLearnset,
         .teachableLearnset = sDecidueyeTeachableLearnset,
         .formSpeciesIdTable = sDecidueyeFormSpeciesIdTable,
     },
@@ -215,7 +215,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Decidueye)
         .isHisuianForm = TRUE,
-        .levelUpLearnset = sDecidueyeHisuianLevelUpLearnset,
+        //.levelUpLearnset = sDecidueyeHisuianLevelUpLearnset,
         .teachableLearnset = sDecidueyeHisuianTeachableLearnset,
         .formSpeciesIdTable = sDecidueyeFormSpeciesIdTable,
     },
@@ -271,7 +271,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Litten,
         .iconPalIndex = 0,
         FOOTPRINT(Litten)
-        .levelUpLearnset = sLittenLevelUpLearnset,
+        //.levelUpLearnset = sLittenLevelUpLearnset,
         .teachableLearnset = sLittenTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 17, SPECIES_TORRACAT}),
     },
@@ -324,7 +324,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Torracat,
         .iconPalIndex = 0,
         FOOTPRINT(Torracat)
-        .levelUpLearnset = sTorracatLevelUpLearnset,
+        //.levelUpLearnset = sTorracatLevelUpLearnset,
         .teachableLearnset = sTorracatTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 34, SPECIES_INCINEROAR}),
     },
@@ -377,7 +377,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Incineroar,
         .iconPalIndex = 0,
         FOOTPRINT(Incineroar)
-        .levelUpLearnset = sIncineroarLevelUpLearnset,
+        //.levelUpLearnset = sIncineroarLevelUpLearnset,
         .teachableLearnset = sIncineroarTeachableLearnset,
     },
 #endif //P_FAMILY_LITTEN
@@ -431,7 +431,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Popplio,
         .iconPalIndex = 0,
         FOOTPRINT(Popplio)
-        .levelUpLearnset = sPopplioLevelUpLearnset,
+        //.levelUpLearnset = sPopplioLevelUpLearnset,
         .teachableLearnset = sPopplioTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 17, SPECIES_BRIONNE}),
     },
@@ -484,7 +484,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Brionne,
         .iconPalIndex = 0,
         FOOTPRINT(Brionne)
-        .levelUpLearnset = sBrionneLevelUpLearnset,
+        //.levelUpLearnset = sBrionneLevelUpLearnset,
         .teachableLearnset = sBrionneTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 34, SPECIES_PRIMARINA}),
     },
@@ -537,7 +537,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Primarina,
         .iconPalIndex = 0,
         FOOTPRINT(Primarina)
-        .levelUpLearnset = sPrimarinaLevelUpLearnset,
+        //.levelUpLearnset = sPrimarinaLevelUpLearnset,
         .teachableLearnset = sPrimarinaTeachableLearnset,
     },
 #endif //P_FAMILY_POPPLIO
@@ -592,7 +592,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Pikipek,
         .iconPalIndex = 2,
         FOOTPRINT(Pikipek)
-        .levelUpLearnset = sPikipekLevelUpLearnset,
+        //.levelUpLearnset = sPikipekLevelUpLearnset,
         .teachableLearnset = sPikipekTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 14, SPECIES_TRUMBEAK}),
     },
@@ -646,7 +646,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Trumbeak,
         .iconPalIndex = 0,
         FOOTPRINT(Trumbeak)
-        .levelUpLearnset = sTrumbeakLevelUpLearnset,
+        //.levelUpLearnset = sTrumbeakLevelUpLearnset,
         .teachableLearnset = sTrumbeakTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 28, SPECIES_TOUCANNON}),
     },
@@ -700,7 +700,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Toucannon,
         .iconPalIndex = 0,
         FOOTPRINT(Toucannon)
-        .levelUpLearnset = sToucannonLevelUpLearnset,
+        //.levelUpLearnset = sToucannonLevelUpLearnset,
         .teachableLearnset = sToucannonTeachableLearnset,
     },
 #endif //P_FAMILY_PIKIPEK
@@ -755,7 +755,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Yungoos,
         .iconPalIndex = 2,
         FOOTPRINT(Yungoos)
-        .levelUpLearnset = sYungoosLevelUpLearnset,
+        //.levelUpLearnset = sYungoosLevelUpLearnset,
         .teachableLearnset = sYungoosTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL_DAY, 20, SPECIES_GUMSHOOS}),
     },
@@ -805,7 +805,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Gumshoos,
         .iconPalIndex = 2,
         FOOTPRINT(Gumshoos)
-        .levelUpLearnset = sGumshoosLevelUpLearnset,
+        //.levelUpLearnset = sGumshoosLevelUpLearnset,
         .teachableLearnset = sGumshoosTeachableLearnset,
         .formSpeciesIdTable = sGumshoosFormSpeciesIdTable,
     },
@@ -856,7 +856,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 2,
         FOOTPRINT(Gumshoos)
         .isTotem = TRUE,
-        .levelUpLearnset = sGumshoosLevelUpLearnset,
+        //.levelUpLearnset = sGumshoosLevelUpLearnset,
         .teachableLearnset = sGumshoosTeachableLearnset,
         .formSpeciesIdTable = sGumshoosFormSpeciesIdTable,
     },
@@ -911,7 +911,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Grubbin,
         .iconPalIndex = 0,
         FOOTPRINT(Grubbin)
-        .levelUpLearnset = sGrubbinLevelUpLearnset,
+        //.levelUpLearnset = sGrubbinLevelUpLearnset,
         .teachableLearnset = sGrubbinTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_CHARJABUG}),
     },
@@ -965,7 +965,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Charjabug,
         .iconPalIndex = 1,
         FOOTPRINT(Charjabug)
-        .levelUpLearnset = sCharjabugLevelUpLearnset,
+        //.levelUpLearnset = sCharjabugLevelUpLearnset,
         .teachableLearnset = sCharjabugTeachableLearnset,
         .evolutions = EVOLUTION({EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_VIKAVOLT},
                                 {EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_VIKAVOLT},
@@ -1017,7 +1017,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Vikavolt,
         .iconPalIndex = 0,
         FOOTPRINT(Vikavolt)
-        .levelUpLearnset = sVikavoltLevelUpLearnset,
+        //.levelUpLearnset = sVikavoltLevelUpLearnset,
         .teachableLearnset = sVikavoltTeachableLearnset,
         .formSpeciesIdTable = sVikavoltFormSpeciesIdTable,
     },
@@ -1068,7 +1068,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Vikavolt)
         .isTotem = TRUE,
-        .levelUpLearnset = sVikavoltLevelUpLearnset,
+        //.levelUpLearnset = sVikavoltLevelUpLearnset,
         .teachableLearnset = sVikavoltTeachableLearnset,
         .formSpeciesIdTable = sVikavoltFormSpeciesIdTable,
     },
@@ -1124,7 +1124,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Crabrawler,
         .iconPalIndex = 2,
         FOOTPRINT(Crabrawler)
-        .levelUpLearnset = sCrabrawlerLevelUpLearnset,
+        //.levelUpLearnset = sCrabrawlerLevelUpLearnset,
         .teachableLearnset = sCrabrawlerTeachableLearnset,
         .evolutions = EVOLUTION({EVO_SPECIFIC_MAP, MAP_SHOAL_CAVE_LOW_TIDE_ICE_ROOM, SPECIES_CRABOMINABLE},
                                 {EVO_ITEM, ITEM_ICE_STONE, SPECIES_CRABOMINABLE}),
@@ -1179,7 +1179,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Crabominable,
         .iconPalIndex = 2,
         FOOTPRINT(Crabominable)
-        .levelUpLearnset = sCrabominableLevelUpLearnset,
+        //.levelUpLearnset = sCrabominableLevelUpLearnset,
         .teachableLearnset = sCrabominableTeachableLearnset,
     },
 #endif //P_FAMILY_CRABRAWLER
@@ -1234,7 +1234,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_OricorioBaile,
         .iconPalIndex = 0,
         FOOTPRINT(Oricorio)
-        .levelUpLearnset = sOricorioLevelUpLearnset,
+        //.levelUpLearnset = sOricorioLevelUpLearnset,
         .teachableLearnset = sOricorioTeachableLearnset,
         .formSpeciesIdTable = sOricorioFormSpeciesIdTable,
         .formChangeTable = sOricorioFormChangeTable,
@@ -1289,7 +1289,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_OricorioPomPom,
         .iconPalIndex = 1,
         FOOTPRINT(Oricorio)
-        .levelUpLearnset = sOricorioLevelUpLearnset,
+        //.levelUpLearnset = sOricorioLevelUpLearnset,
         .teachableLearnset = sOricorioTeachableLearnset,
         .formSpeciesIdTable = sOricorioFormSpeciesIdTable,
         .formChangeTable = sOricorioFormChangeTable,
@@ -1344,7 +1344,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_OricorioPau,
         .iconPalIndex = 1,
         FOOTPRINT(Oricorio)
-        .levelUpLearnset = sOricorioLevelUpLearnset,
+        //.levelUpLearnset = sOricorioLevelUpLearnset,
         .teachableLearnset = sOricorioTeachableLearnset,
         .formSpeciesIdTable = sOricorioFormSpeciesIdTable,
         .formChangeTable = sOricorioFormChangeTable,
@@ -1399,7 +1399,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_OricorioSensu,
         .iconPalIndex = 0,
         FOOTPRINT(Oricorio)
-        .levelUpLearnset = sOricorioLevelUpLearnset,
+        //.levelUpLearnset = sOricorioLevelUpLearnset,
         .teachableLearnset = sOricorioTeachableLearnset,
         .formSpeciesIdTable = sOricorioFormSpeciesIdTable,
         .formChangeTable = sOricorioFormChangeTable,
@@ -1457,7 +1457,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Cutiefly,
         .iconPalIndex = 2,
         FOOTPRINT(Cutiefly)
-        .levelUpLearnset = sCutieflyLevelUpLearnset,
+        //.levelUpLearnset = sCutieflyLevelUpLearnset,
         .teachableLearnset = sCutieflyTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 25, SPECIES_RIBOMBEE},
                                 {EVO_NONE, 0, SPECIES_RIBOMBEE_TOTEM}),
@@ -1509,7 +1509,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Ribombee,
         .iconPalIndex = 2,
         FOOTPRINT(Ribombee)
-        .levelUpLearnset = sRibombeeLevelUpLearnset,
+        //.levelUpLearnset = sRibombeeLevelUpLearnset,
         .teachableLearnset = sRibombeeTeachableLearnset,
         .formSpeciesIdTable = sRibombeeFormSpeciesIdTable,
     },
@@ -1561,7 +1561,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 2,
         FOOTPRINT(Ribombee)
         .isTotem = TRUE,
-        .levelUpLearnset = sRibombeeLevelUpLearnset,
+        //.levelUpLearnset = sRibombeeLevelUpLearnset,
         .teachableLearnset = sRibombeeTeachableLearnset,
         .formSpeciesIdTable = sRibombeeFormSpeciesIdTable,
     },
@@ -1612,7 +1612,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Rockruff,
         .iconPalIndex = 2,
         FOOTPRINT(Rockruff)
-        .levelUpLearnset = sRockruffLevelUpLearnset,
+        //.levelUpLearnset = sRockruffLevelUpLearnset,
         .teachableLearnset = sRockruffTeachableLearnset,
         .formSpeciesIdTable = sRockruffFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL_DAY, 25, SPECIES_LYCANROC_MIDDAY},
@@ -1663,7 +1663,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Rockruff,
         .iconPalIndex = 2,
         FOOTPRINT(Rockruff)
-        .levelUpLearnset = sRockruffLevelUpLearnset,
+        //.levelUpLearnset = sRockruffLevelUpLearnset,
         .teachableLearnset = sRockruffTeachableLearnset,
         .formSpeciesIdTable = sRockruffFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL_DUSK, 25, SPECIES_LYCANROC_DUSK}),
@@ -1717,7 +1717,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_LycanrocMidday,
         .iconPalIndex = 2,
         FOOTPRINT(Lycanroc)
-        .levelUpLearnset = sLycanrocMiddayLevelUpLearnset,
+        //.levelUpLearnset = sLycanrocMiddayLevelUpLearnset,
         .teachableLearnset = sLycanrocMiddayTeachableLearnset,
         .formSpeciesIdTable = sLycanrocFormSpeciesIdTable,
     },
@@ -1770,7 +1770,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_LycanrocMidnight,
         .iconPalIndex = 0,
         FOOTPRINT(Lycanroc)
-        .levelUpLearnset = sLycanrocMidnightLevelUpLearnset,
+        //.levelUpLearnset = sLycanrocMidnightLevelUpLearnset,
         .teachableLearnset = sLycanrocMidnightTeachableLearnset,
         .formSpeciesIdTable = sLycanrocFormSpeciesIdTable,
     },
@@ -1823,7 +1823,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_LycanrocDusk,
         .iconPalIndex = 0,
         FOOTPRINT(Lycanroc)
-        .levelUpLearnset = sLycanrocDuskLevelUpLearnset,
+        //.levelUpLearnset = sLycanrocDuskLevelUpLearnset,
         .teachableLearnset = sLycanrocDuskTeachableLearnset,
         .formSpeciesIdTable = sLycanrocFormSpeciesIdTable,
     },
@@ -1879,7 +1879,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_WishiwashiSolo,
         .iconPalIndex = 2,
         FOOTPRINT(Wishiwashi)
-        .levelUpLearnset = sWishiwashiLevelUpLearnset,
+        //.levelUpLearnset = sWishiwashiLevelUpLearnset,
         .teachableLearnset = sWishiwashiTeachableLearnset,
         .formSpeciesIdTable = sWishiwashiFormSpeciesIdTable,
         .formChangeTable = sWishiwashiFormChangeTable,
@@ -1933,7 +1933,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_WishiwashiSchool,
         .iconPalIndex = 0,
         FOOTPRINT(Wishiwashi)
-        .levelUpLearnset = sWishiwashiLevelUpLearnset,
+        //.levelUpLearnset = sWishiwashiLevelUpLearnset,
         .teachableLearnset = sWishiwashiTeachableLearnset,
         .formSpeciesIdTable = sWishiwashiFormSpeciesIdTable,
         .formChangeTable = sWishiwashiFormChangeTable,
@@ -1990,7 +1990,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Mareanie,
         .iconPalIndex = 2,
         FOOTPRINT(Mareanie)
-        .levelUpLearnset = sMareanieLevelUpLearnset,
+        //.levelUpLearnset = sMareanieLevelUpLearnset,
         .teachableLearnset = sMareanieTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_TOXAPEX}),
     },
@@ -2044,7 +2044,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Toxapex,
         .iconPalIndex = 0,
         FOOTPRINT(Toxapex)
-        .levelUpLearnset = sToxapexLevelUpLearnset,
+        //.levelUpLearnset = sToxapexLevelUpLearnset,
         .teachableLearnset = sToxapexTeachableLearnset,
     },
 #endif //P_FAMILY_MAREANIE
@@ -2099,7 +2099,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Mudbray,
         .iconPalIndex = 2,
         FOOTPRINT(Mudbray)
-        .levelUpLearnset = sMudbrayLevelUpLearnset,
+        //.levelUpLearnset = sMudbrayLevelUpLearnset,
         .teachableLearnset = sMudbrayTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_MUDSDALE}),
     },
@@ -2153,7 +2153,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Mudsdale,
         .iconPalIndex = 0,
         FOOTPRINT(Mudsdale)
-        .levelUpLearnset = sMudsdaleLevelUpLearnset,
+        //.levelUpLearnset = sMudsdaleLevelUpLearnset,
         .teachableLearnset = sMudsdaleTeachableLearnset,
     },
 #endif //P_FAMILY_MUDBRAY
@@ -2208,7 +2208,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Dewpider,
         .iconPalIndex = 0,
         FOOTPRINT(Dewpider)
-        .levelUpLearnset = sDewpiderLevelUpLearnset,
+        //.levelUpLearnset = sDewpiderLevelUpLearnset,
         .teachableLearnset = sDewpiderTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 22, SPECIES_ARAQUANID},
                                 {EVO_NONE, 0, SPECIES_ARAQUANID_TOTEM}),
@@ -2259,7 +2259,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Araquanid,
         .iconPalIndex = 2,
         FOOTPRINT(Araquanid)
-        .levelUpLearnset = sAraquanidLevelUpLearnset,
+        //.levelUpLearnset = sAraquanidLevelUpLearnset,
         .teachableLearnset = sAraquanidTeachableLearnset,
         .formSpeciesIdTable = sAraquanidFormSpeciesIdTable,
     },
@@ -2310,7 +2310,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 2,
         FOOTPRINT(Araquanid)
         .isTotem = TRUE,
-        .levelUpLearnset = sAraquanidLevelUpLearnset,
+        //.levelUpLearnset = sAraquanidLevelUpLearnset,
         .teachableLearnset = sAraquanidTeachableLearnset,
         .formSpeciesIdTable = sAraquanidFormSpeciesIdTable,
     },
@@ -2366,7 +2366,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Fomantis,
         .iconPalIndex = 1,
         FOOTPRINT(Fomantis)
-        .levelUpLearnset = sFomantisLevelUpLearnset,
+        //.levelUpLearnset = sFomantisLevelUpLearnset,
         .teachableLearnset = sFomantisTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL_DAY, 34, SPECIES_LURANTIS},
                                 {EVO_NONE, 0, SPECIES_LURANTIS_TOTEM}),
@@ -2417,7 +2417,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Lurantis,
         .iconPalIndex = 1,
         FOOTPRINT(Lurantis)
-        .levelUpLearnset = sLurantisLevelUpLearnset,
+        //.levelUpLearnset = sLurantisLevelUpLearnset,
         .teachableLearnset = sLurantisTeachableLearnset,
         .formSpeciesIdTable = sLurantisFormSpeciesIdTable,
     },
@@ -2468,7 +2468,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 1,
         FOOTPRINT(Lurantis)
         .isTotem = TRUE,
-        .levelUpLearnset = sLurantisLevelUpLearnset,
+        //.levelUpLearnset = sLurantisLevelUpLearnset,
         .teachableLearnset = sLurantisTeachableLearnset,
         .formSpeciesIdTable = sLurantisFormSpeciesIdTable,
     },
@@ -2525,7 +2525,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Morelull,
         .iconPalIndex = 0,
         FOOTPRINT(Morelull)
-        .levelUpLearnset = sMorelullLevelUpLearnset,
+        //.levelUpLearnset = sMorelullLevelUpLearnset,
         .teachableLearnset = sMorelullTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 24, SPECIES_SHIINOTIC}),
     },
@@ -2580,7 +2580,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Shiinotic,
         .iconPalIndex = 1,
         FOOTPRINT(Shiinotic)
-        .levelUpLearnset = sShiinoticLevelUpLearnset,
+        //.levelUpLearnset = sShiinoticLevelUpLearnset,
         .teachableLearnset = sShiinoticTeachableLearnset,
     },
 #endif //P_FAMILY_MORELULL
@@ -2635,7 +2635,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Salandit,
         .iconPalIndex = 2,
         FOOTPRINT(Salandit)
-        .levelUpLearnset = sSalanditLevelUpLearnset,
+        //.levelUpLearnset = sSalanditLevelUpLearnset,
         .teachableLearnset = sSalanditTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL_FEMALE, 33, SPECIES_SALAZZLE},
                                 {EVO_NONE, 0, SPECIES_SALAZZLE_TOTEM}),
@@ -2686,7 +2686,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Salazzle,
         .iconPalIndex = 0,
         FOOTPRINT(Salazzle)
-        .levelUpLearnset = sSalazzleLevelUpLearnset,
+        //.levelUpLearnset = sSalazzleLevelUpLearnset,
         .teachableLearnset = sSalazzleTeachableLearnset,
         .formSpeciesIdTable = sSalanditFormSpeciesIdTable,
     },
@@ -2737,7 +2737,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Salazzle)
         .isTotem = TRUE,
-        .levelUpLearnset = sSalazzleLevelUpLearnset,
+        //.levelUpLearnset = sSalazzleLevelUpLearnset,
         .teachableLearnset = sSalazzleTeachableLearnset,
         .formSpeciesIdTable = sSalanditFormSpeciesIdTable,
     },
@@ -2792,7 +2792,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Stufful,
         .iconPalIndex = 0,
         FOOTPRINT(Stufful)
-        .levelUpLearnset = sStuffulLevelUpLearnset,
+        //.levelUpLearnset = sStuffulLevelUpLearnset,
         .teachableLearnset = sStuffulTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 27, SPECIES_BEWEAR}),
     },
@@ -2845,7 +2845,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Bewear,
         .iconPalIndex = 0,
         FOOTPRINT(Bewear)
-        .levelUpLearnset = sBewearLevelUpLearnset,
+        //.levelUpLearnset = sBewearLevelUpLearnset,
         .teachableLearnset = sBewearTeachableLearnset,
     },
 #endif //P_FAMILY_STUFFUL
@@ -2900,7 +2900,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Bounsweet,
         .iconPalIndex = 1,
         FOOTPRINT(Bounsweet)
-        .levelUpLearnset = sBounsweetLevelUpLearnset,
+        //.levelUpLearnset = sBounsweetLevelUpLearnset,
         .teachableLearnset = sBounsweetTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_STEENEE}),
     },
@@ -2955,7 +2955,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Steenee,
         .iconPalIndex = 1,
         FOOTPRINT(Steenee)
-        .levelUpLearnset = sSteeneeLevelUpLearnset,
+        //.levelUpLearnset = sSteeneeLevelUpLearnset,
         .teachableLearnset = sSteeneeTeachableLearnset,
         .evolutions = EVOLUTION({EVO_MOVE, MOVE_STOMP, SPECIES_TSAREENA}),
     },
@@ -3010,7 +3010,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Tsareena,
         .iconPalIndex = 1,
         FOOTPRINT(Tsareena)
-        .levelUpLearnset = sTsareenaLevelUpLearnset,
+        //.levelUpLearnset = sTsareenaLevelUpLearnset,
         .teachableLearnset = sTsareenaTeachableLearnset,
     },
 #endif //P_FAMILY_BOUNSWEET
@@ -3067,7 +3067,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Comfey,
         .iconPalIndex = 1,
         FOOTPRINT(Comfey)
-        .levelUpLearnset = sComfeyLevelUpLearnset,
+        //.levelUpLearnset = sComfeyLevelUpLearnset,
         .teachableLearnset = sComfeyTeachableLearnset,
     },
 #endif //P_FAMILY_COMFEY
@@ -3121,7 +3121,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Oranguru,
         .iconPalIndex = 0,
         FOOTPRINT(Oranguru)
-        .levelUpLearnset = sOranguruLevelUpLearnset,
+        //.levelUpLearnset = sOranguruLevelUpLearnset,
         .teachableLearnset = sOranguruTeachableLearnset,
     },
 #endif //P_FAMILY_ORANGURU
@@ -3175,7 +3175,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Passimian,
         .iconPalIndex = 1,
         FOOTPRINT(Passimian)
-        .levelUpLearnset = sPassimianLevelUpLearnset,
+        //.levelUpLearnset = sPassimianLevelUpLearnset,
         .teachableLearnset = sPassimianTeachableLearnset,
     },
 #endif //P_FAMILY_PASSIMIAN
@@ -3229,7 +3229,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Wimpod,
         .iconPalIndex = 2,
         FOOTPRINT(Wimpod)
-        .levelUpLearnset = sWimpodLevelUpLearnset,
+        //.levelUpLearnset = sWimpodLevelUpLearnset,
         .teachableLearnset = sWimpodTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_GOLISOPOD}),
     },
@@ -3282,7 +3282,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Golisopod,
         .iconPalIndex = 2,
         FOOTPRINT(Golisopod)
-        .levelUpLearnset = sGolisopodLevelUpLearnset,
+        //.levelUpLearnset = sGolisopodLevelUpLearnset,
         .teachableLearnset = sGolisopodTeachableLearnset,
     },
 #endif //P_FAMILY_WIMPOD
@@ -3337,7 +3337,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Sandygast,
         .iconPalIndex = 1,
         FOOTPRINT(Sandygast)
-        .levelUpLearnset = sSandygastLevelUpLearnset,
+        //.levelUpLearnset = sSandygastLevelUpLearnset,
         .teachableLearnset = sSandygastTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 42, SPECIES_PALOSSAND}),
     },
@@ -3391,7 +3391,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Palossand,
         .iconPalIndex = 2,
         FOOTPRINT(Palossand)
-        .levelUpLearnset = sPalossandLevelUpLearnset,
+        //.levelUpLearnset = sPalossandLevelUpLearnset,
         .teachableLearnset = sPalossandTeachableLearnset,
     },
 #endif //P_FAMILY_SANDYGAST
@@ -3445,7 +3445,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Pyukumuku,
         .iconPalIndex = 0,
         FOOTPRINT(Pyukumuku)
-        .levelUpLearnset = sPyukumukuLevelUpLearnset,
+        //.levelUpLearnset = sPyukumukuLevelUpLearnset,
         .teachableLearnset = sPyukumukuTeachableLearnset,
     },
 #endif //P_FAMILY_PYUKUMUKU
@@ -3500,7 +3500,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Type_Null)
         .isLegendary = TRUE,
-        .levelUpLearnset = sTypeNullLevelUpLearnset,
+        //.levelUpLearnset = sTypeNullLevelUpLearnset,
         .teachableLearnset = sTypeNullTeachableLearnset,
         .evolutions = EVOLUTION({EVO_FRIENDSHIP, 0, SPECIES_SILVALLY_NORMAL}),
     },
@@ -3552,7 +3552,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Silvally,                                    \
         .iconPalIndex = 0,                                                  \
         FOOTPRINT(Silvally)                                                 \
-        .levelUpLearnset = sSilvallyLevelUpLearnset,                        \
+        /*.levelUpLearnset = sSilvallyLevelUpLearnset,*/                    \
         .teachableLearnset = sSilvallyTeachableLearnset,                    \
         .formSpeciesIdTable = sSilvallyFormSpeciesIdTable,                  \
         .formChangeTable = sSilvallyFormChangeTable,                        \
@@ -3604,7 +3604,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .trainerScale = 256,                                                \
         .trainerOffset = 0,                                                 \
         FOOTPRINT(Minior)                                                   \
-        .levelUpLearnset = sMiniorLevelUpLearnset,                          \
+        /*.levelUpLearnset = sMiniorLevelUpLearnset,*/                      \
         .teachableLearnset = sMiniorTeachableLearnset,                      \
         .formSpeciesIdTable = sMiniorFormSpeciesIdTable
 
@@ -3729,7 +3729,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Komala,
         .iconPalIndex = 2,
         FOOTPRINT(Komala)
-        .levelUpLearnset = sKomalaLevelUpLearnset,
+        //.levelUpLearnset = sKomalaLevelUpLearnset,
         .teachableLearnset = sKomalaTeachableLearnset,
     },
 #endif //P_FAMILY_KOMALA
@@ -3784,7 +3784,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Turtonator,
         .iconPalIndex = 0,
         FOOTPRINT(Turtonator)
-        .levelUpLearnset = sTurtonatorLevelUpLearnset,
+        //.levelUpLearnset = sTurtonatorLevelUpLearnset,
         .teachableLearnset = sTurtonatorTeachableLearnset,
     },
 #endif //P_FAMILY_TURTONATOR
@@ -3835,7 +3835,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Togedemaru,
         .iconPalIndex = 2,
         FOOTPRINT(Togedemaru)
-        .levelUpLearnset = sTogedemaruLevelUpLearnset,
+        //.levelUpLearnset = sTogedemaruLevelUpLearnset,
         .teachableLearnset = sTogedemaruTeachableLearnset,
         .formSpeciesIdTable = sTogedemaruFormSpeciesIdTable,
     },
@@ -3886,7 +3886,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 2,
         FOOTPRINT(Togedemaru)
         .isTotem = TRUE,
-        .levelUpLearnset = sTogedemaruLevelUpLearnset,
+        //.levelUpLearnset = sTogedemaruLevelUpLearnset,
         .teachableLearnset = sTogedemaruTeachableLearnset,
         .formSpeciesIdTable = sTogedemaruFormSpeciesIdTable,
     },
@@ -3938,7 +3938,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_MimikyuDisguised,
         .iconPalIndex = 1,
         FOOTPRINT(Mimikyu)
-        .levelUpLearnset = sMimikyuLevelUpLearnset,
+        //.levelUpLearnset = sMimikyuLevelUpLearnset,
         .teachableLearnset = sMimikyuTeachableLearnset,
         .formSpeciesIdTable = sMimikyuFormSpeciesIdTable,
         .formChangeTable = sMimikyuFormChangeTable,
@@ -3989,7 +3989,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_MimikyuBusted,
         .iconPalIndex = 1,
         FOOTPRINT(Mimikyu)
-        .levelUpLearnset = sMimikyuLevelUpLearnset,
+        //.levelUpLearnset = sMimikyuLevelUpLearnset,
         .teachableLearnset = sMimikyuTeachableLearnset,
         .formSpeciesIdTable = sMimikyuFormSpeciesIdTable,
         .formChangeTable = sMimikyuFormChangeTable,
@@ -4041,7 +4041,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 1,
         FOOTPRINT(Mimikyu)
         .isTotem = TRUE,
-        .levelUpLearnset = sMimikyuLevelUpLearnset,
+        //.levelUpLearnset = sMimikyuLevelUpLearnset,
         .teachableLearnset = sMimikyuTeachableLearnset,
         .formSpeciesIdTable = sMimikyuFormSpeciesIdTable,
         .formChangeTable = sMimikyuTotemFormChangeTable,
@@ -4093,7 +4093,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 1,
         FOOTPRINT(Mimikyu)
         .isTotem = TRUE,
-        .levelUpLearnset = sMimikyuLevelUpLearnset,
+        //.levelUpLearnset = sMimikyuLevelUpLearnset,
         .teachableLearnset = sMimikyuTeachableLearnset,
         .formSpeciesIdTable = sMimikyuFormSpeciesIdTable,
         .formChangeTable = sMimikyuTotemFormChangeTable,
@@ -4150,7 +4150,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Bruxish,
         .iconPalIndex = 0,
         FOOTPRINT(Bruxish)
-        .levelUpLearnset = sBruxishLevelUpLearnset,
+        //.levelUpLearnset = sBruxishLevelUpLearnset,
         .teachableLearnset = sBruxishTeachableLearnset,
     },
 #endif //P_FAMILY_BRUXISH
@@ -4205,7 +4205,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Drampa,
         .iconPalIndex = 0,
         FOOTPRINT(Drampa)
-        .levelUpLearnset = sDrampaLevelUpLearnset,
+        //.levelUpLearnset = sDrampaLevelUpLearnset,
         .teachableLearnset = sDrampaTeachableLearnset,
     },
 #endif //P_FAMILY_DRAMPA
@@ -4261,7 +4261,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_Dhelmise,
         .iconPalIndex = 1,
         FOOTPRINT(Dhelmise)
-        .levelUpLearnset = sDhelmiseLevelUpLearnset,
+        //.levelUpLearnset = sDhelmiseLevelUpLearnset,
         .teachableLearnset = sDhelmiseTeachableLearnset,
     },
 #endif //P_FAMILY_DHELMISE
@@ -4316,7 +4316,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_JangmoO,
         .iconPalIndex = 2,
         FOOTPRINT(JangmoO)
-        .levelUpLearnset = sJangmoOLevelUpLearnset,
+        //.levelUpLearnset = sJangmoOLevelUpLearnset,
         .teachableLearnset = sJangmoOTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 35, SPECIES_HAKAMO_O}),
     },
@@ -4370,7 +4370,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_HakamoO,
         .iconPalIndex = 2,
         FOOTPRINT(HakamoO)
-        .levelUpLearnset = sHakamoOLevelUpLearnset,
+        //.levelUpLearnset = sHakamoOLevelUpLearnset,
         .teachableLearnset = sHakamoOTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 45, SPECIES_KOMMO_O},
                                 {EVO_NONE, 0, SPECIES_KOMMO_O_TOTEM}),
@@ -4421,7 +4421,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconSprite = gMonIcon_KommoO,
         .iconPalIndex = 2,
         FOOTPRINT(KommoO)
-        .levelUpLearnset = sKommoOLevelUpLearnset,
+        //.levelUpLearnset = sKommoOLevelUpLearnset,
         .teachableLearnset = sKommoOTeachableLearnset,
         .formSpeciesIdTable = sKommoOFormSpeciesIdTable,
     },
@@ -4472,7 +4472,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 2,
         FOOTPRINT(KommoO)
         .isTotem = TRUE,
-        .levelUpLearnset = sKommoOLevelUpLearnset,
+        //.levelUpLearnset = sKommoOLevelUpLearnset,
         .teachableLearnset = sKommoOTeachableLearnset,
         .formSpeciesIdTable = sKommoOFormSpeciesIdTable,
     },
@@ -4529,7 +4529,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Tapu_Koko)
         .isLegendary = TRUE,
-        .levelUpLearnset = sTapuKokoLevelUpLearnset,
+        //.levelUpLearnset = sTapuKokoLevelUpLearnset,
         .teachableLearnset = sTapuKokoTeachableLearnset,
     },
 #endif //P_FAMILY_TAPU_KOKO
@@ -4585,7 +4585,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Tapu_Lele)
         .isLegendary = TRUE,
-        .levelUpLearnset = sTapuLeleLevelUpLearnset,
+        //.levelUpLearnset = sTapuLeleLevelUpLearnset,
         .teachableLearnset = sTapuLeleTeachableLearnset,
     },
 #endif //P_FAMILY_TAPU_LELE
@@ -4641,7 +4641,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 2,
         FOOTPRINT(Tapu_Bulu)
         .isLegendary = TRUE,
-        .levelUpLearnset = sTapuBuluLevelUpLearnset,
+        //.levelUpLearnset = sTapuBuluLevelUpLearnset,
         .teachableLearnset = sTapuBuluTeachableLearnset,
     },
 #endif //P_FAMILY_TAPU_BULU
@@ -4698,7 +4698,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Tapu_Fini)
         .isLegendary = TRUE,
-        .levelUpLearnset = sTapuFiniLevelUpLearnset,
+        //.levelUpLearnset = sTapuFiniLevelUpLearnset,
         .teachableLearnset = sTapuFiniTeachableLearnset,
     },
 #endif //P_FAMILY_TAPU_FINI
@@ -4755,7 +4755,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         FOOTPRINT(Cosmog)
         .isLegendary = TRUE,
         .tmIlliterate = TRUE,
-        .levelUpLearnset = sCosmogLevelUpLearnset,
+        //.levelUpLearnset = sCosmogLevelUpLearnset,
         .teachableLearnset = sCosmogTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 43, SPECIES_COSMOEM}),
     },
@@ -4812,7 +4812,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         FOOTPRINT(Cosmoem)
         .isLegendary = TRUE,
         .tmIlliterate = TRUE,
-        .levelUpLearnset = sCosmoemLevelUpLearnset,
+        //.levelUpLearnset = sCosmoemLevelUpLearnset,
         .teachableLearnset = sCosmoemTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL_DAY, 53, SPECIES_SOLGALEO},
                                 {EVO_LEVEL_NIGHT, 53, SPECIES_LUNALA}),
@@ -4867,7 +4867,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Solgaleo)
         .isLegendary = TRUE,
-        .levelUpLearnset = sSolgaleoLevelUpLearnset,
+        //.levelUpLearnset = sSolgaleoLevelUpLearnset,
         .teachableLearnset = sSolgaleoTeachableLearnset,
     },
 
@@ -4921,7 +4921,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 2,
         FOOTPRINT(Lunala)
         .isLegendary = TRUE,
-        .levelUpLearnset = sLunalaLevelUpLearnset,
+        //.levelUpLearnset = sLunalaLevelUpLearnset,
         .teachableLearnset = sLunalaTeachableLearnset,
     },
 #endif //P_FAMILY_COSMOG
@@ -4977,7 +4977,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Nihilego)
         .isUltraBeast = TRUE,
-        .levelUpLearnset = sNihilegoLevelUpLearnset,
+        //.levelUpLearnset = sNihilegoLevelUpLearnset,
         .teachableLearnset = sNihilegoTeachableLearnset,
     },
 #endif //P_FAMILY_NIHILEGO
@@ -5033,7 +5033,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Buzzwole)
         .isUltraBeast = TRUE,
-        .levelUpLearnset = sBuzzwoleLevelUpLearnset,
+        //.levelUpLearnset = sBuzzwoleLevelUpLearnset,
         .teachableLearnset = sBuzzwoleTeachableLearnset,
     },
 #endif //P_FAMILY_BUZZWOLE
@@ -5088,7 +5088,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 2,
         FOOTPRINT(Pheromosa)
         .isUltraBeast = TRUE,
-        .levelUpLearnset = sPheromosaLevelUpLearnset,
+        //.levelUpLearnset = sPheromosaLevelUpLearnset,
         .teachableLearnset = sPheromosaTeachableLearnset,
     },
 #endif //P_FAMILY_PHEROMOSA
@@ -5143,7 +5143,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Xurkitree)
         .isUltraBeast = TRUE,
-        .levelUpLearnset = sXurkitreeLevelUpLearnset,
+        //.levelUpLearnset = sXurkitreeLevelUpLearnset,
         .teachableLearnset = sXurkitreeTeachableLearnset,
     },
 #endif //P_FAMILY_XURKITREE
@@ -5200,7 +5200,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Celesteela)
         .isUltraBeast = TRUE,
-        .levelUpLearnset = sCelesteelaLevelUpLearnset,
+        //.levelUpLearnset = sCelesteelaLevelUpLearnset,
         .teachableLearnset = sCelesteelaTeachableLearnset,
     },
 #endif //P_FAMILY_CELESTEELA
@@ -5256,7 +5256,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Kartana)
         .isUltraBeast = TRUE,
-        .levelUpLearnset = sKartanaLevelUpLearnset,
+        //.levelUpLearnset = sKartanaLevelUpLearnset,
         .teachableLearnset = sKartanaTeachableLearnset,
     },
 #endif //P_FAMILY_KARTANA
@@ -5311,7 +5311,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Guzzlord)
         .isUltraBeast = TRUE,
-        .levelUpLearnset = sGuzzlordLevelUpLearnset,
+        //.levelUpLearnset = sGuzzlordLevelUpLearnset,
         .teachableLearnset = sGuzzlordTeachableLearnset,
     },
 #endif //P_FAMILY_GUZZLORD
@@ -5369,7 +5369,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Necrozma)
         .isLegendary = TRUE,
-        .levelUpLearnset = sNecrozmaLevelUpLearnset,
+        //.levelUpLearnset = sNecrozmaLevelUpLearnset,
         .teachableLearnset = sNecrozmaTeachableLearnset,
         .formSpeciesIdTable = sNecrozmaFormSpeciesIdTable,
     },
@@ -5426,7 +5426,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         FOOTPRINT(Necrozma)
         .isLegendary = TRUE,
         .cannotBeTraded = TRUE,
-        .levelUpLearnset = sNecrozmaLevelUpLearnset,
+        //.levelUpLearnset = sNecrozmaLevelUpLearnset,
         .teachableLearnset = sNecrozmaTeachableLearnset,
         .formSpeciesIdTable = sNecrozmaFormSpeciesIdTable,
         .formChangeTable = sNecrozmaDuskManeFormChangeTable,
@@ -5484,7 +5484,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         FOOTPRINT(Necrozma)
         .isLegendary = TRUE,
         .cannotBeTraded = TRUE,
-        .levelUpLearnset = sNecrozmaLevelUpLearnset,
+        //.levelUpLearnset = sNecrozmaLevelUpLearnset,
         .teachableLearnset = sNecrozmaTeachableLearnset,
         .formSpeciesIdTable = sNecrozmaFormSpeciesIdTable,
         .formChangeTable = sNecrozmaDawnWingsFormChangeTable,
@@ -5546,7 +5546,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .isLegendary = TRUE,
         .isUltraBurst = TRUE,
         .cannotBeTraded = TRUE,
-        .levelUpLearnset = sNecrozmaLevelUpLearnset,
+        //.levelUpLearnset = sNecrozmaLevelUpLearnset,
         .teachableLearnset = sNecrozmaTeachableLearnset,
         .formSpeciesIdTable = sNecrozmaFormSpeciesIdTable,
     },
@@ -5604,7 +5604,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Magearna)
         .isMythical = TRUE,
-        .levelUpLearnset = sMagearnaLevelUpLearnset,
+        //.levelUpLearnset = sMagearnaLevelUpLearnset,
         .teachableLearnset = sMagearnaTeachableLearnset,
         .formSpeciesIdTable = sMagearnaFormSpeciesIdTable,
     },
@@ -5657,7 +5657,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Magearna)
         .isMythical = TRUE,
-        .levelUpLearnset = sMagearnaLevelUpLearnset,
+        //.levelUpLearnset = sMagearnaLevelUpLearnset,
         .teachableLearnset = sMagearnaTeachableLearnset,
         .formSpeciesIdTable = sMagearnaFormSpeciesIdTable,
     },
@@ -5715,7 +5715,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Marshadow)
         .isMythical = TRUE,
-        .levelUpLearnset = sMarshadowLevelUpLearnset,
+        //.levelUpLearnset = sMarshadowLevelUpLearnset,
         .teachableLearnset = sMarshadowTeachableLearnset,
     },
 #endif //P_FAMILY_MARSHADOW
@@ -5770,7 +5770,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Poipole)
         .isUltraBeast = TRUE,
-        .levelUpLearnset = sPoipoleLevelUpLearnset,
+        //.levelUpLearnset = sPoipoleLevelUpLearnset,
         .teachableLearnset = sPoipoleTeachableLearnset,
         .evolutions = EVOLUTION({EVO_MOVE, MOVE_DRAGON_PULSE, SPECIES_NAGANADEL}),
     },
@@ -5824,7 +5824,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Naganadel)
         .isUltraBeast = TRUE,
-        .levelUpLearnset = sNaganadelLevelUpLearnset,
+        //.levelUpLearnset = sNaganadelLevelUpLearnset,
         .teachableLearnset = sNaganadelTeachableLearnset,
     },
 #endif //P_FAMILY_POIPOLE
@@ -5879,7 +5879,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Stakataka)
         .isUltraBeast = TRUE,
-        .levelUpLearnset = sStakatakaLevelUpLearnset,
+        //.levelUpLearnset = sStakatakaLevelUpLearnset,
         .teachableLearnset = sStakatakaTeachableLearnset,
     },
 #endif //P_FAMILY_STAKATAKA
@@ -5934,7 +5934,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Blacephalon)
         .isUltraBeast = TRUE,
-        .levelUpLearnset = sBlacephalonLevelUpLearnset,
+        //.levelUpLearnset = sBlacephalonLevelUpLearnset,
         .teachableLearnset = sBlacephalonTeachableLearnset,
     },
 #endif //P_FAMILY_BLACEPHALON
@@ -5988,7 +5988,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 0,
         FOOTPRINT(Zeraora)
         .isMythical = TRUE,
-        .levelUpLearnset = sZeraoraLevelUpLearnset,
+        //.levelUpLearnset = sZeraoraLevelUpLearnset,
         .teachableLearnset = sZeraoraTeachableLearnset,
     },
 #endif //P_FAMILY_ZERAORA
@@ -6042,7 +6042,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 2,
         FOOTPRINT(Meltan)
         .isMythical = TRUE,
-        .levelUpLearnset = sMeltanLevelUpLearnset,
+        //.levelUpLearnset = sMeltanLevelUpLearnset,
         .teachableLearnset = sMeltanTeachableLearnset,
     },
 
@@ -6094,7 +6094,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .iconPalIndex = 2,
         FOOTPRINT(Melmetal)
         .isMythical = TRUE,
-        .levelUpLearnset = sMelmetalLevelUpLearnset,
+        //.levelUpLearnset = sMelmetalLevelUpLearnset,
         .teachableLearnset = sMelmetalTeachableLearnset,
         .formSpeciesIdTable = sMelmetalFormSpeciesIdTable,
         .formChangeTable = sMelmetalFormChangeTable,
@@ -6151,7 +6151,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         FOOTPRINT(Melmetal)
         .isMythical = TRUE,
         .isGigantamax = TRUE,
-        .levelUpLearnset = sMelmetalLevelUpLearnset,
+        //.levelUpLearnset = sMelmetalLevelUpLearnset,
         .teachableLearnset = sMelmetalTeachableLearnset,
         .formSpeciesIdTable = sMelmetalFormSpeciesIdTable,
         .formChangeTable = sMelmetalFormChangeTable,

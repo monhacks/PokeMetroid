@@ -15491,7 +15491,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Dances with mystical power.\n"
             "Matches user's first type."),
         .effect = EFFECT_REVELATION_DANCE,
-        .power = 90,
+        .power = 60,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 15,

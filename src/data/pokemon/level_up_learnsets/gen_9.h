@@ -2,6 +2,8 @@
 #define LEVEL_UP_END {.move = LEVEL_UP_MOVE_END, .level = 0}
 
 static const struct LevelUpMove sNoneLevelUpLearnset[] = {
+    LEVEL_UP_MOVE(1, MOVE_REVELATION_DANCE),
+    LEVEL_UP_MOVE(1, MOVE_HIDDEN_POWER),
     LEVEL_UP_MOVE(1, MOVE_POUND),
     LEVEL_UP_END
 };
