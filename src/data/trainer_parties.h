@@ -11798,11 +11798,40 @@ static const struct TrainerMon sParty_BrendanLinkPlaceholder[] = {
     }
 };
 
-static const struct TrainerMon sParty_MayLinkPlaceholder[] = {
+static const struct TrainerMon sParty_PsychicKey[] = {
     {
-    .lvl = 5,
-    .species = SPECIES_KYOGRE,
-    }
+    .lvl = 16,
+    .species = SPECIES_RALTS,
+	.ability = ABILITY_SYNCHRONIZE,
+    .moves = {MOVE_CONFUSION, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_MEMENTO}
+    },
+    {
+    .lvl = 16,
+    .species = SPECIES_SLOWPOKE,
+	.ability = ABILITY_OBLIVIOUS,
+    .moves = {MOVE_BRINE, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_TELEPORT}
+    },
+    {
+    .lvl = 16,
+    .species = SPECIES_INKAY,
+	.ability = ABILITY_SUCTION_CUPS,
+    .moves = {MOVE_CALM_MIND, MOVE_PSYBEAM, MOVE_PAYBACK, MOVE_FLING},
+    .heldItem = ITEM_LIGHT_BALL
+    },
+    {
+    .lvl = 16,
+    .species = SPECIES_ABRA,
+	.ability = ABILITY_MAGIC_GUARD,
+    .moves = {MOVE_CALM_MIND, MOVE_CONFUSION, MOVE_FIRE_PUNCH, MOVE_THUNDER_PUNCH},
+    .heldItem = ITEM_FOCUS_SASH
+	},
+    {
+    .lvl = 16,
+    .species = SPECIES_BRONZOR,
+	.ability = ABILITY_HEATPROOF,
+    .moves = {MOVE_CALM_MIND, MOVE_IRON_DEFENSE, MOVE_STORED_POWER, MOVE_REST},
+    .heldItem = ITEM_LUM_BERRY
+	},
 };
 
 static const struct TrainerMon sParty_SNORLAX103[] = {

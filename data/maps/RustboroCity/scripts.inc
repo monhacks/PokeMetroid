@@ -1021,6 +1021,26 @@ RustboroCity_EventScript_Boy1::
 	msgbox RustboroCity_Text_YouCanHave2On2Battle, MSGBOX_NPC
 	end
 
+
+RustboroCity_EventScript_PsyFight::
+	trainerbattle_single TRAINER_PSYCHICKEY, RustboroCity_Text_Fight, RustboroCity_Text_PsyWin, RustboroCity_EventScript_Flag
+	msgbox RustboroCity_Text_Fight
+	closemessage
+	end
+
+RustboroCity_EventScript_Flag::
+	setflag FLAG_BADGE02_GET
+	removeobject 1
+	end
+
+RustboroCity_Text_Fight:
+	.string "Fight!$"
+
+RustboroCity_Text_PsyWin:
+	.string "You've unlocked!\n"
+	.string "your latent\p"
+	.string "psychic power.$"
+
 RustboroCity_Text_WeShortenItToDevon:
 	.string "The DEVON CORPORATION…\n"
 	.string "We all just shorten it to DEVON.\p"
