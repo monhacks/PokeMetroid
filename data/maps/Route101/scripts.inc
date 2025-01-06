@@ -266,6 +266,8 @@ Route101_EventScript_Starter::
 	setflag FLAG_STARTER
 	clearflag FLAG_NO_WILD
 	setrespawn HEAL_LOCATION_OLDALE_TOWN
+	giveitem ITEM_POKE_BALL, 99
+	closemessage
 	end
 
 Route101_EventScript_FireBarrier1::

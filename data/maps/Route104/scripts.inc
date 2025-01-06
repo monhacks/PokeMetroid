@@ -999,6 +999,12 @@ Route104_EventScript_Darian::
 	msgbox Route104_Text_DarianPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route104_EventScript_Onix::
+	setwildbattle SPECIES_ONIX, 10
+	setflag FLAG_TEMP_1
+	removeobject 1
+	end
+
 Route104_Text_BrineyLivesInSeasideCottage:
 	.string "That seaside cottage is where\n"
 	.string "MR. BRINEY lives.\p"
