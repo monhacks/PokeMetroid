@@ -9240,9 +9240,9 @@ const struct Item gItemsInfo[] =
         .secondaryId = MOVE_FOCUS_PUNCH,
     },
 
-    [ITEM_TM_DRAGON_CLAW] =
+    [ITEM_TM_INFESTATION] =
     {
-        .name = _("TM02"),
+        .name = _("Infestation"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Hooks and slashes\n"
@@ -9252,12 +9252,12 @@ const struct Item gItemsInfo[] =
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_DRAGON_CLAW,
+        .secondaryId = MOVE_INFESTATION,
     },
 
-    [ITEM_TM_WATER_PULSE] =
+    [ITEM_TM_BODY_SLAM] =
     {
-        .name = _("TM03"),
+        .name = _("Body Slam"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Generates an\n"
@@ -9267,7 +9267,7 @@ const struct Item gItemsInfo[] =
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_WATER_PULSE,
+        .secondaryId = MOVE_BODY_SLAM,
     },
 
     [ITEM_TM_CALM_MIND] =

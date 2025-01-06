@@ -1,5 +1,14 @@
 Route102_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route102_OnTransition
 	.byte 0
+
+Route102_OnTransition:
+	call Route102_OnLoad
+	end
+
+Route102_OnLoad::
+	clearflag FLAG_DOUBLE_WILD
+	end
 
 Route102_EventScript_LittleBoy::
 	msgbox Route102_Text_ImNotVeryTall, MSGBOX_NPC

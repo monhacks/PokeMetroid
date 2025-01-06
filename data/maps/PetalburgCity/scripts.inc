@@ -707,8 +707,7 @@ PetalburgCity_EventScript_GymBoy::
 	end
 
 PetalburgCity_OnLoad::
-	//hideobjectat 2, MAP_PETALBURG_CITY
-	//setflag FLAG_TEMP_2
+	setflag FLAG_DOUBLE_WILD
 	end
 
 @ PetalburgCity_EventScript_WarpTrigger::

@@ -3,8 +3,8 @@
 
 #define FOREACH_TM(F) \
     F(FOCUS_PUNCH) \
-    F(DRAGON_CLAW) \
-    F(WATER_PULSE) \
+    F(INFESTATION) \
+    F(BODY_SLAM) \
     F(CALM_MIND) \
     F(ROAR) \
     F(TOXIC) \
