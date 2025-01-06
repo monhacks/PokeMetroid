@@ -10246,7 +10246,7 @@ const struct Trainer gTrainers[] = {
         .party = TRAINER_PARTY(sParty_Leaf),
     },
 
-    [TRAINER_BRENDAN_PLACEHOLDER] =
+    [TRAINER_TAILLOW] =
     {
         .trainerClass = TRAINER_CLASS_RS_PROTAG,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -10254,8 +10254,8 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("BRENDAN"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = 0,
-        .party = TRAINER_PARTY(sParty_BrendanLinkPlaceholder),
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_SETUP_FIRST_TURN | AI_FLAG_HP_AWARE,
+        .party = TRAINER_PARTY(sParty_Taillow),
     },
 
     [TRAINER_PSYCHICKEY] =

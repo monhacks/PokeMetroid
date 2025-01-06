@@ -11791,10 +11791,54 @@ static const struct TrainerMon sParty_Leaf[] = {
     }
 };
 
-static const struct TrainerMon sParty_BrendanLinkPlaceholder[] = {
+static const struct TrainerMon sParty_Taillow[] = {
     {
-    .lvl = 5,
-    .species = SPECIES_GROUDON,
+    .lvl = 1,
+    .species = SPECIES_TAILLOW,
+	.ability = ABILITY_SCRAPPY,
+	.iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+    .moves = {MOVE_ENDEAVOR, MOVE_QUICK_ATTACK, MOVE_NONE, MOVE_NONE},
+    .heldItem = ITEM_FOCUS_SASH
+    },
+    {
+    .lvl = 1,
+    .species = SPECIES_TAILLOW,
+	.ability = ABILITY_SCRAPPY,
+	.iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+    .moves = {MOVE_ENDEAVOR, MOVE_QUICK_ATTACK, MOVE_NONE, MOVE_NONE},
+    .heldItem = ITEM_FOCUS_SASH
+    },
+    {
+    .lvl = 1,
+    .species = SPECIES_TAILLOW,
+	.ability = ABILITY_SCRAPPY,
+	.iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+    .moves = {MOVE_ENDEAVOR, MOVE_QUICK_ATTACK, MOVE_NONE, MOVE_NONE},
+    .heldItem = ITEM_FOCUS_SASH
+    },
+    {
+    .lvl = 1,
+    .species = SPECIES_TAILLOW,
+	.ability = ABILITY_SCRAPPY,
+	.iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+    .moves = {MOVE_ENDEAVOR, MOVE_QUICK_ATTACK, MOVE_NONE, MOVE_NONE},
+    .heldItem = ITEM_FOCUS_SASH
+    },
+    {
+    .lvl = 1,
+    .species = SPECIES_TAILLOW,
+	.ability = ABILITY_SCRAPPY,
+	.iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+    .moves = {MOVE_ENDEAVOR, MOVE_QUICK_ATTACK, MOVE_NONE, MOVE_NONE},
+    .heldItem = ITEM_FOCUS_SASH
+    },
+    {
+    .lvl = 1,
+    .species = SPECIES_TAILLOW,
+	.ability = ABILITY_SCRAPPY,
+	.iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+    .moves = {MOVE_ENDEAVOR, MOVE_QUICK_ATTACK, MOVE_NONE, MOVE_NONE},
+    .heldItem = ITEM_FOCUS_SASH
     }
 };
 

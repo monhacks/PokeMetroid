@@ -856,7 +856,7 @@
 #define TRAINER_EVERETT                     850
 #define TRAINER_RED                         851
 #define TRAINER_LEAF                        852
-#define TRAINER_BRENDAN_PLACEHOLDER         853
+#define TRAINER_TAILLOW                     853
 #define TRAINER_PSYCHICKEY                  854
 #define TRAINER_SNORLAX103                  855
 #define TRAINER_SCYTHER101                  856

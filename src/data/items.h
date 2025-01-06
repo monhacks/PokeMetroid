@@ -9424,9 +9424,9 @@ const struct Item gItemsInfo[] =
         .secondaryId = MOVE_ICE_BEAM,
     },
 
-    [ITEM_TM_BLIZZARD] =
+    [ITEM_TM_QUICK_ATTACK] =
     {
-        .name = _("TM14"),
+        .name = _("Quick Attack"),
         .price = 5500,
         .description = COMPOUND_STRING(
         #if B_USE_FROSTBITE == TRUE
@@ -9442,7 +9442,7 @@ const struct Item gItemsInfo[] =
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_BLIZZARD,
+        .secondaryId = MOVE_QUICK_ATTACK,
     },
 
     [ITEM_TM_HYPER_BEAM] =

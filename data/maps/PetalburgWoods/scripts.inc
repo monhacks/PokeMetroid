@@ -318,6 +318,21 @@ PetalburgWoods_EventScript_JamesRematch::
 	msgbox PetalburgWoods_Text_IveBeenTrainingHard, MSGBOX_AUTOCLOSE
 	end
 
+PetalburgWoods_EventScript_Taillow::
+	trainerbattle_single TRAINER_TAILLOW, PetalburgWoods_Text_Fight, PetalburgWoods_Text_Fight, PetalburgWoods_EventScrpt_Win
+	msgbox Route101_Text_Fight
+	closemessage
+	end
+
+PetalburgWoods_EventScrpt_Win::
+	giveitem ITEM_TM_QUICK_ATTACK
+	setflag FLAG_RECEIVED_QUICK_ATTACK
+	removeobject 3
+	end
+
+PetalburgWoods_Text_Fight:
+	.string "Bird noise!$"
+
 PetalburgWoods_Text_NotAOneToBeFound:
 	.string "Hmmm…\n"
 	.string "Not a one to be found…$"

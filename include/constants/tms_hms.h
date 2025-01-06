@@ -15,7 +15,7 @@
     F(SUNNY_DAY) \
     F(TAUNT) \
     F(ICE_BEAM) \
-    F(BLIZZARD) \
+    F(QUICK_ATTACK) \
     F(HYPER_BEAM) \
     F(LIGHT_SCREEN) \
     F(PROTECT) \
