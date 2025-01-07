@@ -266,6 +266,8 @@ Route101_EventScript_Starter::
 	setflag FLAG_STARTER
 	clearflag FLAG_NO_WILD
 	setrespawn HEAL_LOCATION_OLDALE_TOWN
+	call Common_EventScript_NameReceivedPartyMon
+	setflag FLAG_SYS_POKEMON_GET
 	closemessage
 	end
 
