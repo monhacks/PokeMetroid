@@ -387,6 +387,7 @@ Route101_EventScript_WaterFight::
 
 Route101_EventScript_Flag::
 	setflag FLAG_BADGE01_GET
+	giveitem ITEM_TM_BUG_BUZZ
 	giveitem ITEM_POKE_BALL, 99
 	removeobject 5
 	removeobject 6
