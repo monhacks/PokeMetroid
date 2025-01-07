@@ -266,7 +266,6 @@ Route101_EventScript_Starter::
 	setflag FLAG_STARTER
 	clearflag FLAG_NO_WILD
 	setrespawn HEAL_LOCATION_OLDALE_TOWN
-	giveitem ITEM_POKE_BALL, 99
 	closemessage
 	end
 
@@ -386,9 +385,11 @@ Route101_EventScript_WaterFight::
 
 Route101_EventScript_Flag::
 	setflag FLAG_BADGE01_GET
+	giveitem ITEM_POKE_BALL, 99
 	removeobject 5
 	removeobject 6
 	removeobject 7
+	closemessage
 	end
 
 Route101_EventScript_Terminate::
