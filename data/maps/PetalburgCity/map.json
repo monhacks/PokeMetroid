@@ -35,7 +35,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PetalburgCity_EventScript_Warp",
+      "script": "PetalburgCity_EventScript_WarpCircle",
       "flag": "FLAG_TEMP_2"
     },
     {

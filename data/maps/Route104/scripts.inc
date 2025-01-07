@@ -1001,6 +1001,7 @@ Route104_EventScript_Darian::
 
 Route104_EventScript_Onix::
 	setwildbattle SPECIES_ONIX, 10
+	dowildbattle
 	setflag FLAG_TEMP_1
 	removeobject 1
 	end

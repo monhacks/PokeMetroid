@@ -710,16 +710,9 @@ PetalburgCity_OnLoad::
 	setflag FLAG_DOUBLE_WILD
 	end
 
-@ PetalburgCity_EventScript_WarpTrigger::
-	@ goto_if_unset FLAG_TEMP_1, PetalburgCity_EventScript_Terminate
-	@ clearflag FLAG_TEMP_1
-	@ end
-
 PetalburgCity_EventScript_WarpCircle::
-	@ goto_if_set FLAG_TEMP_1, PetalburgCity_EventScript_Terminate
 	msgbox PetalburgCity_Text_WarpCircle1, MSGBOX_DEFAULT
 	closemessage
-	@ setflag FLAG_TEMP_1
 	goto_if_set FLAG_BADGE02_GET, PetalburgCity_EventScript_Warp
 	end
 
@@ -732,9 +725,6 @@ PetalburgCity_EventScript_Warp::
 
 PetalburgCity_EventScript_Badge::
 	setflag FLAG_BADGE02_GET
-	end
-
-PetalburgCity_EventScript_Terminate::
 	end
 
 PetalburgCity_Text_WarpCircle1:
