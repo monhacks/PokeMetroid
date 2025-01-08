@@ -3784,7 +3784,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .iconSprite = gMonIcon_Croagunk,
         .iconPalIndex = 0,
         FOOTPRINT(Croagunk)
-        //.levelUpLearnset = sCroagunkLevelUpLearnset,
+        .levelUpLearnset = sCroagunkLevelUpLearnset,
         .teachableLearnset = sCroagunkTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 37, SPECIES_TOXICROAK}),
     },

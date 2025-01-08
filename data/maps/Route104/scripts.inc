@@ -1005,6 +1005,14 @@ Route104_EventScript_Onix::
 	removeobject 1
 	end
 
+Route104_EventScript_Croagunk::
+	setwildbattle SPECIES_CROAGUNK, 10
+	settotemboost B_POSITION_OPPONENT_LEFT, 1, 0, 1
+	dowildbattle
+	setflag FLAG_TEMP_3
+	removeobject 2
+	end
+
 Route104_EventScript_WarpCircle::
 	msgbox Route104_Text_WarpCircle1, MSGBOX_DEFAULT
 	closemessage
