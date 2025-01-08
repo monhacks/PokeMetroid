@@ -40,8 +40,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "OldaleTown_EventScript_HealPlayer",
-      "flag": "FLAG_SPAWN"
+      "script": "Common_EventScript_OutOfCenterPartyHeal",
+      "flag": "FLAG_NO_WILD"
     }
   ],
   "warp_events": [
