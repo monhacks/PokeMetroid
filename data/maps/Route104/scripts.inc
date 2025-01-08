@@ -1005,6 +1005,28 @@ Route104_EventScript_Onix::
 	removeobject 1
 	end
 
+Route104_EventScript_WarpCircle::
+	msgbox Route104_Text_WarpCircle1, MSGBOX_DEFAULT
+	closemessage
+	goto_if_set FLAG_BADGE02_GET, Route104_EventScript_Warp
+	end
+
+Route104_EventScript_Warp::
+	msgbox Route104_Text_WarpCircle2, MSGBOX_DEFAULT
+	closemessage
+	warp MAP_ROUTE109, 20, 17
+	waitstate
+	end
+
+Route104_Text_WarpCircle1:
+	.string "You feel power\n"
+	.string "flowing through you.$"
+
+Route104_Text_WarpCircle2:
+	.string "You activate\n"
+	.string "the gate!$"
+
+
 Route104_Text_BrineyLivesInSeasideCottage:
 	.string "That seaside cottage is where\n"
 	.string "MR. BRINEY lives.\p"

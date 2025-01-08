@@ -49,7 +49,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_TM_BODY_SLAM",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_RECEIVED_TM_WATER_PULSE"
+      "flag": "FLAG_RECEIVED_TM_BODY_SLAM"
     }
   ],
   "warp_events": [
