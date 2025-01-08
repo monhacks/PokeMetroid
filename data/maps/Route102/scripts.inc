@@ -7,7 +7,6 @@ Route102_OnTransition:
 	end
 
 Route102_OnLoad::
-	clearflag FLAG_DOUBLE_WILD
 	end
 
 Route102_EventScript_LittleBoy::

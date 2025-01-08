@@ -707,7 +707,7 @@ PetalburgCity_EventScript_GymBoy::
 	end
 
 PetalburgCity_OnLoad::
-	setflag FLAG_DOUBLE_WILD
+	setflag FLAG_TEMP_DOUBLE
 	end
 
 PetalburgCity_EventScript_WarpCircle::

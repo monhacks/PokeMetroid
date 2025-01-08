@@ -17,7 +17,6 @@ Route104_EventScript_StartSailToDewford::
 	end
 
 Route104_OnTransition:
-	clearflag FLAG_DOUBLE_WILD
 	call Common_EventScript_SetupRivalGfxId
 	call Route104_EventScript_TrySetRivalPos
 	call Route104_EventScript_ShowOrHideWhiteHerbFlorist
