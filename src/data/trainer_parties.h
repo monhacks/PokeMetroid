@@ -11847,7 +11847,7 @@ static const struct TrainerMon sParty_PsychicKey[] = {
     .lvl = 16,
     .species = SPECIES_RALTS,
 	.ability = ABILITY_SYNCHRONIZE,
-    .moves = {MOVE_CONFUSION, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_MEMENTO}
+    .moves = {MOVE_DAZZLING_GLEAM, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_MEMENTO}
     },
     {
     .lvl = 16,
@@ -11859,14 +11859,13 @@ static const struct TrainerMon sParty_PsychicKey[] = {
     .lvl = 16,
     .species = SPECIES_INKAY,
 	.ability = ABILITY_SUCTION_CUPS,
-    .moves = {MOVE_CALM_MIND, MOVE_PSYBEAM, MOVE_PAYBACK, MOVE_FLING},
-    .heldItem = ITEM_LIGHT_BALL
+    .moves = {MOVE_NASTY_PLOT, MOVE_PSYBEAM, MOVE_DARK_PULSE, MOVE_FLAMETHROWER}
     },
     {
     .lvl = 16,
     .species = SPECIES_ABRA,
 	.ability = ABILITY_MAGIC_GUARD,
-    .moves = {MOVE_CALM_MIND, MOVE_CONFUSION, MOVE_FIRE_PUNCH, MOVE_THUNDER_PUNCH},
+    .moves = {MOVE_CALM_MIND, MOVE_PSYSHOCK, MOVE_FIRE_PUNCH, MOVE_GRASS_KNOT},
     .heldItem = ITEM_FOCUS_SASH
 	},
     {
@@ -11874,7 +11873,7 @@ static const struct TrainerMon sParty_PsychicKey[] = {
     .species = SPECIES_BRONZOR,
 	.ability = ABILITY_HEATPROOF,
     .moves = {MOVE_CALM_MIND, MOVE_IRON_DEFENSE, MOVE_STORED_POWER, MOVE_REST},
-    .heldItem = ITEM_LUM_BERRY
+    .heldItem = ITEM_CHESTO_BERRY
 	},
 };
 
