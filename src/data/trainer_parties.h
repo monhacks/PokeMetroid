@@ -11847,6 +11847,7 @@ static const struct TrainerMon sParty_PsychicKey[] = {
     .lvl = 16,
     .species = SPECIES_RALTS,
 	.ability = ABILITY_SYNCHRONIZE,
+	.iv = TRAINER_PARTY_IVS(20, 0, 20, 31, 0, 31),
 	.ev = TRAINER_PARTY_EVS(0, 0, 0, 0, 0, 252),
 	.nature = NATURE_TIMID,
     .moves = {MOVE_DAZZLING_GLEAM, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_MEMENTO}
@@ -11863,6 +11864,7 @@ static const struct TrainerMon sParty_PsychicKey[] = {
     .lvl = 16,
     .species = SPECIES_INKAY,
 	.ability = ABILITY_SUCTION_CUPS,
+    .heldItem = ITEM_FOCUS_SASH,
     .moves = {MOVE_NASTY_PLOT, MOVE_PSYBEAM, MOVE_DARK_PULSE, MOVE_FLAMETHROWER}
     },
     {
