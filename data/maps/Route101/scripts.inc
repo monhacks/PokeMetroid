@@ -423,11 +423,10 @@ Route101_Text_Fight:
 	.string "Fight!$"
 
 Route101_Text_Demo:
-	.string "Good job!\n"
-	.string "The demo is over\p"
-	.string "But now you'd\n"
-	.string "be able to walk\p"
-	.string "through long grass.$"
+	.string "A buzzing fills!\n"
+	.string "your ears, now\p"
+	.string "the long grass\n"
+	.string "looks inviting.$"
 	
 Route101_Text_HelpMe:
 	.string "H-help me!$"

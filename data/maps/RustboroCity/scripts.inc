@@ -1039,7 +1039,9 @@ RustboroCity_Text_Fight:
 RustboroCity_Text_PsyWin:
 	.string "You've unlocked!\n"
 	.string "your latent\p"
-	.string "psychic power.$"
+	.string "psychic power!\p"
+	.string "But the demo\n"
+	.string "is over.$"
 
 RustboroCity_Text_WeShortenItToDevon:
 	.string "The DEVON CORPORATION…\n"
