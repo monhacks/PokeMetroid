@@ -327,6 +327,7 @@ PetalburgWoods_EventScript_Taillow::
 PetalburgWoods_EventScrpt_Win::
 	giveitem ITEM_TM_QUICK_ATTACK
 	setflag FLAG_RECEIVED_QUICK_ATTACK
+	setflag FLAG_TEMP_1
 	removeobject 3
 	end
 
