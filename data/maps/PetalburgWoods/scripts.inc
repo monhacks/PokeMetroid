@@ -4,6 +4,14 @@
 PetalburgWoods_MapScripts::
 	.byte 0
 
+PetalburgWoods_OnTransition:
+	call PetalburgWoods_OnLoad
+	end
+
+PetalburgWoods_OnLoad::
+	setflag FLAG_PETALBURG_WOODS_VISIITED
+	end
+
 PetalburgWoods_EventScript_DevonResearcherLeft::
 	lockall
 	call PetalburgWoods_EventScript_DevonResearcherIntro
