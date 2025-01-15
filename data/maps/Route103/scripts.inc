@@ -302,7 +302,7 @@ Route103_EventScript_Starter::
 	removeobject 2
 	setflag FLAG_SPAWN
 	setflag FLAG_NO_WILD
-	setvar VAR_STARTER_MON, 3
+	setflag FLAG_STARTOFGAME
 	call Common_EventScript_SetupRivalGfxIdSameGender
 	setrespawn HEAL_LOCATION_OLDALE_TOWN
 	end
